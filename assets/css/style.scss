@@ -72,3 +72,40 @@ header nav li a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
+/* ---- Parallax background ---- */
+body {
+  background-color: #101510;
+  background-image: url('{{ "/assets/img/background.jpg" | relative_url }}');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;   /* this creates the parallax effect */
+}
+
+/* Darken the image slightly so text stays readable */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 15, 10, 0.55);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Frosted panel behind the main content */
+section {
+  background: rgba(16, 21, 16, 0.78);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 30px !important;
+  margin-bottom: 30px;
+}
+
+/* Mobile: fixed backgrounds are unreliable, especially on iOS */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
