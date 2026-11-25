@@ -2,8 +2,8 @@
 ---
 @import "{{ site.theme }}";
 
-/* TEXT SIZE: 1 = Midnight's default (16px). 2 = double. Change this one number to resize all text. */
-$text-scale: 2;
+/* TEXT SIZE: 1 = Midnight's default (16px). 1.5 = 24px. 2 = double. Change this one number to resize all text. */
+$text-scale: 1.5;
 
 /* ==========================================================
    Arcadia site styles (overrides on top of the Midnight theme)
@@ -17,6 +17,8 @@ $text-scale: 2;
   --border: rgba(255, 255, 255, 0.18);
   --gold: #d9bd73;
 }
+
+html { scroll-padding-top: 110px; }
 
 /* ---- Top-nav layout (overrides Midnight's sidebar) ---- */
 .wrapper {
@@ -207,16 +209,23 @@ section p, section ul, section ol, section table, section pre, section blockquot
   gap: 8px;
   justify-content: center;
   margin: 0 0 1.5rem;
-  padding-bottom: 1rem;
+  padding: 10px 8px;
   border-bottom: 1px solid var(--border);
+
+  /* Stay pinned to the top of the screen while scrolling */
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(12, 18, 13, 0.94);
+  border-radius: 0 0 10px 10px;
 }
 .modlist-nav a {
-  padding: 6px 14px;
+  padding: 4px 14px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 999px;
   color: var(--text);
   text-decoration: none;
-  font-size: .95em;
+  font-size: .65em;
   line-height: 1.4;
 }
 .modlist-nav a:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
@@ -247,7 +256,7 @@ section p, section ul, section ol, section table, section pre, section blockquot
 
 /* ---- Mobile ---- */
 @media (max-width: 768px) {
-  body { background-attachment: scroll; font-size: 20px; }   /* fixed backgrounds are unreliable on phones; 2x text is too big for a phone screen */
+  body { background-attachment: scroll; font-size: 18px; }   /* fixed backgrounds are unreliable on phones; large text leaves too few words per line on a small screen */
   section { padding: 18px !important; }
   header nav ul { gap: 4px 12px; }
 }
