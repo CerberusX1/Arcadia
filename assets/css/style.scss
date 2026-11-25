@@ -43,6 +43,10 @@ header p { color: var(--muted); }
 section {
   float: none !important;
   width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;   /* padding counts inside the 100% width, so the text stays centered */
 }
 
 footer {
