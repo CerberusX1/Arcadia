@@ -2,8 +2,8 @@
 ---
 @import "{{ site.theme }}";
 
-/* TEXT SIZE: 1 = Midnight's default (16px). 1.5 = 24px. 2 = double. Change this one number to resize all text. */
-$text-scale: 1.5;
+/* TEXT SIZE: 1 = Midnight's default (16px). 1.125 = 18px. 1.5 = 24px. 2 = double. Change this one number to resize all text. */
+$text-scale: 1.125;
 
 /* ==========================================================
    Arcadia site styles (overrides on top of the Midnight theme)
@@ -256,7 +256,7 @@ section p, section ul, section ol, section table, section pre, section blockquot
 
 /* ---- Mobile ---- */
 @media (max-width: 768px) {
-  body { background-attachment: scroll; font-size: 18px; }   /* fixed backgrounds are unreliable on phones; large text leaves too few words per line on a small screen */
+  body { background-attachment: scroll; font-size: 16px; }   /* fixed backgrounds are unreliable on phones; large text leaves too few words per line on a small screen */
   section { padding: 18px !important; }
   header nav ul { gap: 4px 12px; }
 }
