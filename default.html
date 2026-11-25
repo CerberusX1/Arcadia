@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          {% for item in site.data.navigation %}
+            {% assign active = false %}
+            {% unless item.external %}
+              {% if item.url == '/' %}
+                {% if page.url == '/' %}{% assign active = true %}{% endif %}
+              {% elsif page.url contains item.url %}
+                {% assign active = true %}
+              {% endif %}
+              {% if item.url == '/modlists/' and page.modlist %}{% assign active = true %}{% endif %}
+            {% endunless %}
+            <li><a href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      {{ content }}
+    </section>
+
+    <footer>
+      <p>&copy; {{ 'now' | date: '%Y' }} Arcadia. A community built around immersive gaming and modding.</p>
+    </footer>
+  </div>
+</body>
+</html>

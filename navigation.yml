@@ -1,0 +1,18 @@
+# Top navigation. Edit here and every page updates.
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Modlists
+  url: /modlists/
+- title: Guides
+  url: /guides/
+- title: Community
+  url: /community/
+- title: Support
+  url: /support/
+- title: Credits
+  url: /credits/
+- title: Discord
+  url: https://discord.gg/3UaP8ssBSv
+  external: true

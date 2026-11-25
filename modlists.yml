@@ -1,0 +1,52 @@
+# One entry per modlist. The sub-menu on each modlist page is built from "pages".
+# To add a page to a modlist: create the .md file, then add it to that modlist's list below.
+
+- id: everwild
+  title: Arcadia Everwild
+  game: Skyrim Anniversary Edition
+  tagline: A high-fantasy Skyrim experience featuring expansive wilderness, beautiful landscapes, seasonal environments, enhanced gameplay, and new adventures.
+  url: /everwild/
+  banner: /assets/img/modlists/everwild.webp
+  pages:
+    - { title: Overview,        url: /everwild/ }
+    - { title: Install,         url: /everwild/install/ }
+    - { title: Getting Started, url: /everwild/getting-started/ }
+    - { title: SkyrimNet,       url: /everwild/skyrimnet/ }
+    - { title: Troubleshooting, url: /everwild/troubleshooting/ }
+
+- id: sands
+  title: Arcadia Sands
+  game: Fallout 4
+  tagline: A Fallout 4 overhaul featuring a sun-scorched frontier atmosphere, expanded settlements, improved combat, and an enhanced wasteland experience.
+  url: /sands/
+  banner: /assets/img/modlists/sands.webp
+  pages:
+    - { title: Overview,        url: /sands/ }
+    - { title: Install,         url: /sands/install/ }
+    - { title: Getting Started, url: /sands/getting-started/ }
+    - { title: Survival Guide,  url: /sands/survival-guide/ }
+    - { title: Troubleshooting, url: /sands/troubleshooting/ }
+
+- id: arcadia-list-ae
+  title: The Arcadia List AE
+  game: Fallout 4
+  tagline: A comprehensive Fallout 4 experience combining expanded content, enhanced gameplay, new adventures, and carefully selected modifications.
+  url: /arcadia-list-ae/
+  banner: /assets/img/modlists/arcadia-list-ae.webp
+  pages:
+    - { title: Overview,        url: /arcadia-list-ae/ }
+    - { title: Install,         url: /arcadia-list-ae/install/ }
+    - { title: Getting Started, url: /arcadia-list-ae/getting-started/ }
+    - { title: Troubleshooting, url: /arcadia-list-ae/troubleshooting/ }
+
+- id: dreadfall
+  title: Dreadfall
+  game: Fallout 4
+  tagline: A dark Fallout 4 horror experience built around psychological horror, terrifying creatures, atmospheric environments, and survival.
+  url: /dreadfall/
+  banner: /assets/img/modlists/dreadfall.webp
+  pages:
+    - { title: Overview,        url: /dreadfall/ }
+    - { title: Install,         url: /dreadfall/install/ }
+    - { title: Getting Started, url: /dreadfall/getting-started/ }
+    - { title: Troubleshooting, url: /dreadfall/troubleshooting/ }
