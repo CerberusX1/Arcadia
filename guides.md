@@ -29,7 +29,7 @@ A high-fantasy Skyrim experience.
 - Gameplay information.
 - Troubleshooting and frequently asked questions.
 
-[View Arcadia Everwild Guide →](https://github.com/CerberusX1/modlists/blob/main/Arcadia_Everwild_Getting_Started.md)
+[View Arcadia Everwild Guide →](https://github.com/CerberusX1/modlists/blob/main/EverwildGettingStarted.MD))
 
 ---
 
@@ -47,7 +47,7 @@ A sun-scorched frontier experience.
 - Settlement guidance.
 - Troubleshooting and frequently asked questions.
 
-[View Arcadia Sands Guide →](https://github.com/CerberusX1/modlists/blob/main/Arcadia_Sands_Getting_Started.md)
+[View Arcadia Sands Guide →]((https://github.com/CerberusX1/modlists/blob/main/Arcadia_Sands_Getting_Started_Guide.md))
 
 ### The Arcadia List AE
 
