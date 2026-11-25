@@ -1,0 +1,44 @@
+
+# ==========================================
+# ARCADIA WEBSITE CONFIGURATION
+# ==========================================
+
+title: Arcadia
+tagline: Explore. Create. Experience.
+description: >-
+  Arcadia is a gaming and modding community
+  dedicated to immersive gaming experiences,
+  custom modlists, and community creativity.
+
+# Website address
+url: "https://cerberusx1.github.io"
+baseurl: "/modlists"
+
+# Jekyll theme
+theme: jekyll-theme-midnight
+
+# Website settings
+show_downloads: false
+markdown: kramdown
+permalink: pretty
+
+# Default page layout
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+# Markdown configuration
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Files and folders excluded from the website
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
