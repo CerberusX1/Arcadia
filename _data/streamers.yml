@@ -1,0 +1,13 @@
+# Streamers shown on the Streaming page.
+# To add another: copy one of the blocks below, paste it at the bottom, and change the values.
+# Keep the spacing exactly as shown.
+
+- name: Sky
+  platform: Twitch
+  url: https://www.twitch.tv/skyaureliax
+  streams: Jackbox on party nights, sometimes Mario Kart, PEAK, and R.E.P.O. Mostly whatever game the community is playing at the time, since games rotate out often.
+
+- name: Purplefox
+  platform: Twitch
+  url: https://www.twitch.tv/purplefox1998
+  streams: R.E.P.O., PEAK, The Long Dark, and whatever else the community is playing.
