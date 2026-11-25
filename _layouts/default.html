@@ -1,31 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-  {% include head.html %}
+  <meta charset="UTF-8">
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
-
 <body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
 
-  <div class="site-wrapper">
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/modlists/' | relative_url }}">Modlists</a></li>
+          <li><a href="{{ '/guides/' | relative_url }}">Guides</a></li>
+          <li><a href="{{ '/community/' | relative_url }}">Community</a></li>
+          <li><a href="{{ '/support/' | relative_url }}">Support</a></li>
+          <li><a href="https://discord.gg/3UaP8ssBSv">Discord</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <!-- Header -->
-    {% include header.html %}
+    <section>
+      {{ content }}
+    </section>
 
-    <!-- Main Content -->
-    <main id="main-content" class="main-content">
-      <div class="content-container">
-        {{ content }}
-      </div>
-    </main>
-
-    <!-- Footer -->
-    {% include footer.html %}
-
+    <footer>
+      <p>&copy; {{ 'now' | date: '%Y' }} Arcadia. A community built around immersive gaming and modding.</p>
+    </footer>
   </div>
-
-  <!-- JavaScript -->
-  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-
 </body>
 </html>
