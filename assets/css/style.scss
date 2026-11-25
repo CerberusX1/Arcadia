@@ -2,6 +2,9 @@
 ---
 @import "{{ site.theme }}";
 
+/* TEXT SIZE: 1 = Midnight's default (16px). 2 = double. Change this one number to resize all text. */
+$text-scale: 2;
+
 /* ==========================================================
    Arcadia site styles (overrides on top of the Midnight theme)
    ========================================================== */
@@ -18,7 +21,7 @@
 /* ---- Top-nav layout (overrides Midnight's sidebar) ---- */
 .wrapper {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -104,6 +107,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;   /* this creates the parallax effect */
   color: var(--text);
+  font-size: 16px * $text-scale;
+  line-height: 1.5;
 }
 
 /* Darken the image slightly so text stays readable */
@@ -177,8 +182,22 @@ section th { background: rgba(0, 0, 0, 0.35); }
 
 section img { max-width: 100%; height: auto; border-radius: 6px; }
 
+
+/* ---- Explicit text sizes (all in em, so they follow $text-scale) ---- */
+header h1 { font-size: 1.9em; }
+header p { font-size: 1em; }
+header nav li a { font-size: .9em; }
+section { font-size: 1em; }
+section h1 { font-size: 1.75em; }
+section h2 { font-size: 1.5em; }
+section h3 { font-size: 1.25em; }
+section h4, section h5, section h6 { font-size: 1em; }
+section code, section pre { font-size: .85em; }
+footer p { font-size: .8em; }
+section p, section ul, section ol, section table, section pre, section blockquote { margin-bottom: .75em; }
+
 /* ---- Modlist sections (Everwild, Sands, AE, Dreadfall) ---- */
-.modlist-label { text-align: center; margin: 0 0 .75rem; font-size: .95rem; }
+.modlist-label { text-align: center; margin: 0 0 .75rem; font-size: .95em; }
 .modlist-label-sep { opacity: .4; margin: 0 .5rem; }
 .modlist-label-game { opacity: .7; margin-left: .5rem; }
 
@@ -197,7 +216,7 @@ section img { max-width: 100%; height: auto; border-radius: 6px; }
   border-radius: 999px;
   color: var(--text);
   text-decoration: none;
-  font-size: .95rem;
+  font-size: .95em;
   line-height: 1.4;
 }
 .modlist-nav a:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
@@ -228,7 +247,7 @@ section img { max-width: 100%; height: auto; border-radius: 6px; }
 
 /* ---- Mobile ---- */
 @media (max-width: 768px) {
-  body { background-attachment: scroll; }   /* fixed backgrounds are unreliable on phones */
+  body { background-attachment: scroll; font-size: 20px; }   /* fixed backgrounds are unreliable on phones; 2x text is too big for a phone screen */
   section { padding: 18px !important; }
   header nav ul { gap: 4px 12px; }
 }
