@@ -5,6 +5,7 @@
 
 title: Arcadia
 tagline: Explore. Create. Experience.
+
 description: >-
   Arcadia is a gaming and modding community
   dedicated to immersive gaming experiences,
@@ -12,7 +13,7 @@ description: >-
 
 # Website address
 url: "https://cerberusx1.github.io"
-baseurl: "/modlists"
+baseurl: "/Arcadia"
 
 # Jekyll theme
 theme: jekyll-theme-midnight
