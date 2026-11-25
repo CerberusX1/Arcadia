@@ -1,100 +1,68 @@
 ---
-layout: modlist
-modlist: arcadia-list-ae
-title: The Arcadia List AE
+layout: default
+title: Home
 ---
 
-# The Arcadia List AE
+# Welcome to Arcadia
 
-### The Commonwealth, Expanded.
+### Explore. Create. Experience.
 
-**A Comprehensive Fallout 4 Overhaul**
+Welcome to Arcadia, a gaming and modding community dedicated to creating immersive gaming experiences, sharing creativity, and bringing players together.
 
-Return to the Commonwealth and experience Fallout 4 in a new way.
-
-The Arcadia List AE brings together an extensive collection of modifications designed to expand the world, improve gameplay, enhance visuals, and introduce new adventures.
-
-Built around a carefully assembled combination of gameplay improvements, additional content, and visual enhancements, this project aims to create a richer and more complete Fallout 4 experience.
+Discover our custom modlists, explore new worlds, find helpful resources, and become part of our growing community.
 
 ---
 
-## At a Glance
+## Explore Our Modlists
 
-- **Game:** Fallout 4 Anniversary Edition (Steam)
-- **Installer:** Wabbajack and Mod Organizer 2 (MO2)
-- **Profiles:** Normal and Survival
-- **Size:** about 400 enabled mods, and the list requires 280 GB of disk space
+### Arcadia Everwild
+A high-fantasy Skyrim experience featuring expansive wilderness, beautiful landscapes, seasonal environments, enhanced gameplay, and new adventures.
 
----
+[Explore Arcadia Everwild →]({{ '/everwild/' | relative_url }})
 
-## The Vision
+### Arcadia Sands
+A Fallout 4 overhaul featuring a sun-scorched frontier atmosphere, expanded settlements, improved combat, and an enhanced wasteland experience.
 
-The Arcadia List AE is built for players who want more from their Fallout 4 experience.
+[Explore Arcadia Sands →]({{ '/sands/' | relative_url }})
 
-Rather than focusing on a single theme, this project brings together a broad range of improvements and additions to create an expanded Commonwealth.
+### The Arcadia List AE
+A comprehensive Fallout 4 experience combining expanded content, enhanced gameplay, new adventures, and carefully selected modifications.
 
-From new quests and encounters to enhanced combat, expanded factions, and improved environments, the goal is to make every journey through the wasteland feel rewarding.
+[Explore The Arcadia List AE →]({{ '/arcadia-list-ae/' | relative_url }})
 
----
+### Dreadfall
+A dark Fallout 4 horror experience built around psychological horror, terrifying creatures, atmospheric environments, and survival.
 
-## Features
-
-### Expanded World
-
-Discover additional locations, encounters, quests, and content that expand the Commonwealth.
-
-### Enhanced Combat
-
-Experience improved combat systems, smarter encounters, and additional gameplay mechanics.
-
-### Expanded Factions
-
-Explore expanded faction content and additional opportunities to interact with the world.
-
-### Improved Visuals
-
-Enjoy enhanced environments, lighting, weather, and graphical improvements.
-
-### Additional Equipment
-
-Discover new weapons, equipment, and gameplay additions.
-
-### More Adventures
-
-Experience additional quests, characters, and stories that expand the Fallout 4 universe.
+[Explore Dreadfall →]({{ '/dreadfall/' | relative_url }})
 
 ---
 
-## Available Profiles
+## Discover Arcadia
 
-The Arcadia List AE includes two dedicated configurations.
+**Explore our projects**
 
-- **Normal:** for standard Fallout 4 difficulties.
-- **Survival:** for playing on Survival difficulty, with a few extra mods.
+Browse our collection of custom modlists and discover your next gaming experience.
 
-Each profile is maintained separately. Pick one before you start a new game and stay with it for the whole playthrough. See [Choosing a Profile]({{ '/arcadia-list-ae/getting-started/' | relative_url }}#choosing-a-profile-normal-vs-survival) for details.
+[Browse Modlists →]({{ '/modlists/' | relative_url }})
 
----
+**Find helpful resources**
 
-## Getting Started
+Access installation instructions, documentation, and troubleshooting resources.
 
-Ready to explore the expanded Commonwealth?
+[Explore Guides →]({{ '/guides/' | relative_url }})
 
-Visit our resources for installation instructions, requirements, profile information, and gameplay guidance.
+**Join the community**
 
-- [Install →]({{ '/arcadia-list-ae/install/' | relative_url }})
-- [Getting Started Guide →]({{ '/arcadia-list-ae/getting-started/' | relative_url }})
-- [Troubleshooting →]({{ '/arcadia-list-ae/troubleshooting/' | relative_url }})
-- [Get Support →]({{ '/support/' | relative_url }})
+Connect with other players, share experiences, get support, and participate in community events.
+
+[Join Our Community →]({{ '/community/' | relative_url }})
 
 ---
 
-## Credits and Acknowledgments
+## Built by the Community, for the Community
 
-The Arcadia List AE is made possible by the talented mod authors and creators who contribute to the Fallout 4 modding community.
+Arcadia is about more than modlists. It's about bringing people together through shared interests, creativity, and a passion for gaming.
 
-We appreciate their work and encourage users to support the original creators while respecting their permissions and requirements.
+Whether you're a longtime modder or just getting started, there's a place for you here.
 
----
-
-**The Commonwealth has more to offer. Welcome to The Arcadia List AE.**
+**Welcome to Arcadia.**
