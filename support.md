@@ -25,12 +25,12 @@ Each Arcadia project has its own configuration, requirements, and troubleshootin
 
 **Choose your modlist:**
 
-- [Arcadia Everwild](everwild.md)
-- [Arcadia Sands](sands.md)
-- [The Arcadia List AE](arcadia-list-ae.md)
-- [Dreadfall](dreadfall.md)
+- **Arcadia Everwild:** [Overview]({{ '/everwild/' | relative_url }}) · [Install]({{ '/everwild/install/' | relative_url }}) · [Getting Started]({{ '/everwild/getting-started/' | relative_url }}) · [SkyrimNet]({{ '/everwild/skyrimnet/' | relative_url }}) · [Troubleshooting]({{ '/everwild/troubleshooting/' | relative_url }})
+- **Arcadia Sands:** [Overview]({{ '/sands/' | relative_url }}) · [Install]({{ '/sands/install/' | relative_url }}) · [Getting Started]({{ '/sands/getting-started/' | relative_url }}) · [Survival Guide]({{ '/sands/survival-guide/' | relative_url }}) · [Troubleshooting]({{ '/sands/troubleshooting/' | relative_url }})
+- **The Arcadia List AE:** [Overview]({{ '/arcadia-list-ae/' | relative_url }}) · [Install]({{ '/arcadia-list-ae/install/' | relative_url }}) · [Getting Started]({{ '/arcadia-list-ae/getting-started/' | relative_url }}) · [Troubleshooting]({{ '/arcadia-list-ae/troubleshooting/' | relative_url }})
+- **Dreadfall:** [Overview]({{ '/dreadfall/' | relative_url }}) · [Install]({{ '/dreadfall/install/' | relative_url }}) · [Getting Started]({{ '/dreadfall/getting-started/' | relative_url }}) · [Troubleshooting]({{ '/dreadfall/troubleshooting/' | relative_url }})
 
-[Browse Installation Guides →](guides.md)
+[Browse Installation Guides →]({{ '/guides/' | relative_url }})
 
 ---
 

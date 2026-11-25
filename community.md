@@ -62,7 +62,7 @@ Arcadia is home to several custom modlist projects:
 
 Each project has its own identity, and our community brings them together under one roof.
 
-[Explore Our Modlists →](modlists.md)
+[Explore Our Modlists →]({{ '/modlists/' | relative_url }})
 
 ---
 

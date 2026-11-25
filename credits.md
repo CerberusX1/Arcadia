@@ -64,10 +64,10 @@ Each Arcadia project contains its own collection of modifications and resources.
 
 For project-specific credits, permissions, and mod author information, please consult the relevant modlist documentation.
 
-- [Arcadia Everwild](everwild.md)
-- [Arcadia Sands](sands.md)
-- [The Arcadia List AE](arcadia-list-ae.md)
-- [Dreadfall](dreadfall.md)
+- [Arcadia Everwild]({{ '/everwild/' | relative_url }})
+- [Arcadia Sands]({{ '/sands/' | relative_url }})
+- [The Arcadia List AE]({{ '/arcadia-list-ae/' | relative_url }})
+- [Dreadfall]({{ '/dreadfall/' | relative_url }})
 
 ---
 

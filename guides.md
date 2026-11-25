@@ -29,7 +29,13 @@ A high-fantasy Skyrim experience.
 - Gameplay information.
 - Troubleshooting and frequently asked questions.
 
-[View Arcadia Everwild Guide →](https://github.com/CerberusX1/modlists/blob/main/EverwildGettingStarted.MD))
+**Go to the guides:**
+
+- [Overview →]({{ '/everwild/' | relative_url }})
+- [Install →]({{ '/everwild/install/' | relative_url }})
+- [Getting Started →]({{ '/everwild/getting-started/' | relative_url }})
+- [SkyrimNet →]({{ '/everwild/skyrimnet/' | relative_url }})
+- [Troubleshooting →]({{ '/everwild/troubleshooting/' | relative_url }})
 
 ---
 
@@ -47,7 +53,13 @@ A sun-scorched frontier experience.
 - Settlement guidance.
 - Troubleshooting and frequently asked questions.
 
-[View Arcadia Sands Guide →]((https://github.com/CerberusX1/modlists/blob/main/Arcadia_Sands_Getting_Started_Guide.md))
+**Go to the guides:**
+
+- [Overview →]({{ '/sands/' | relative_url }})
+- [Install →]({{ '/sands/install/' | relative_url }})
+- [Getting Started →]({{ '/sands/getting-started/' | relative_url }})
+- [Survival Guide →]({{ '/sands/survival-guide/' | relative_url }})
+- [Troubleshooting →]({{ '/sands/troubleshooting/' | relative_url }})
 
 ### The Arcadia List AE
 
@@ -61,7 +73,12 @@ An expanded Commonwealth experience.
 - Configuration guidance.
 - Troubleshooting and frequently asked questions.
 
-[View The Arcadia List AE Guide →](https://github.com/CerberusX1/modlists/blob/main/Arcadia_List_AE_Getting_Started.md)
+**Go to the guides:**
+
+- [Overview →]({{ '/arcadia-list-ae/' | relative_url }})
+- [Install →]({{ '/arcadia-list-ae/install/' | relative_url }})
+- [Getting Started →]({{ '/arcadia-list-ae/getting-started/' | relative_url }})
+- [Troubleshooting →]({{ '/arcadia-list-ae/troubleshooting/' | relative_url }})
 
 ### Dreadfall
 
@@ -75,7 +92,12 @@ A psychological horror and survival experience.
 - Configuration information.
 - Troubleshooting and frequently asked questions.
 
-[View Dreadfall Guide →](https://github.com/CerberusX1/modlists/blob/main/Dreadfall_Getting_Started.md)
+**Go to the guides:**
+
+- [Overview →]({{ '/dreadfall/' | relative_url }})
+- [Install →]({{ '/dreadfall/install/' | relative_url }})
+- [Getting Started →]({{ '/dreadfall/getting-started/' | relative_url }})
+- [Troubleshooting →]({{ '/dreadfall/troubleshooting/' | relative_url }})
 
 ---
 
@@ -93,7 +115,7 @@ Modlists may receive updates, improvements, and compatibility changes over time.
 
 If you encounter an issue during installation or gameplay, visit our support page for troubleshooting information and community assistance.
 
-[Visit Support →](support.md)
+[Visit Support →]({{ '/support/' | relative_url }})
 
 ---
 

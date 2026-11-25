@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign ml = site.data.modlists | where: "id", page.modlist | first %}
+
+<div class="modlist-label">
+  <a href="{{ '/modlists/' | relative_url }}">&larr; All modlists</a>
+  <span class="modlist-label-sep">|</span>
+  <strong>{{ ml.title }}</strong>
+  <span class="modlist-label-game">{{ ml.game }}</span>
+</div>
+
+<nav class="modlist-nav" aria-label="{{ ml.title }} sections">
+  {% for p in ml.pages %}<a href="{{ p.url | relative_url }}"{% if page.url == p.url %} class="active" aria-current="page"{% endif %}>{{ p.title }}</a>
+  {% endfor %}
+</nav>
+
+{% if page.url == ml.pages[0].url %}
+<img class="modlist-banner" src="{{ ml.banner | relative_url }}" alt="{{ ml.title }} banner">
+{% endif %}
+
+<div class="modlist-body">
+{{ content }}
+</div>

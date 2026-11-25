@@ -1,0 +1,276 @@
+---
+layout: modlist
+modlist: sands
+title: Arcadia Sands: Getting Started
+---
+
+# Arcadia Sands — Getting Started Guide
+
+*A beginner’s guide to the standard Arcadia Sands profile and the Arcadia Sands Survival profile.*
+
+## Table of Contents
+
+- [Welcome to Arcadia Sands](#welcome-to-arcadia-sands)
+- [Choose the Right Profile](#choose-the-right-profile)
+- [Before Your First Launch](#before-your-first-launch)
+- [Starting a New Game](#starting-a-new-game)
+- [Vault 111 Starting Items and First-Launch Tips](#vault-111-starting-items-and-first-launch-tips)
+- [Your First Hours in the Commonwealth](#your-first-hours-in-the-commonwealth)
+- [Combat, Weapons, and Equipment](#combat-weapons-and-equipment)
+- [Exploration, Quests, and New Locations](#exploration-quests-and-new-locations)
+- [Settlements and Sim Settlements 2](#settlements-and-sim-settlements-2)
+- [Companions](#companions)
+- [Pip-Boy, HUD, and Mod Menus](#pip-boy-hud-and-mod-menus)
+- [Visuals, Weather, and Performance](#visuals-weather-and-performance)
+- [Stability and Save-Safety Tips](#stability-and-save-safety-tips)
+- [Arcadia Sands Survival Profile Guide]({{ '/sands/survival-guide/' | relative_url }}) (separate page)
+
+---
+
+## Welcome to Arcadia Sands
+
+Arcadia Sands is a broad Fallout 4 overhaul built around a sun-bleached, desert/frontier look, a more developed Commonwealth, expanded factions and encounters, a large collection of weapons and equipment, revised combat, settlement building, and additional quests and locations.
+
+The two supplied Mod Organizer 2 lists share most of their content. Both include the Badlands 2 desert landscape setup, Desperados Overhaul, True Storms, Lightweight Lighting, ENB-related components, a large weapon collection, faction changes, additional creatures, many quest mods, and an extensive Sim Settlements 2 setup.
+
+**The standard profile is the recommended starting point for a first playthrough.** The Survival profile is a more demanding alternative that activates a dedicated survival package. Choose your profile before beginning and keep that save with that profile.
+
+> **Important:** This guide is based on the two supplied MO2 mod lists. A mod appearing in the list does not guarantee every feature is automatically enabled in-game; some mods have their own configuration menus or prerequisites. Where the list does not establish an exact setting or mechanic, this guide does not assume one.
+
+## Choose the Right Profile
+
+### Standard Arcadia Sands
+
+Choose this if you want to learn the overhaul without the additional survival systems.
+
+The supplied standard list has these survival-related entries disabled: Doomsdayer – Surviving in Survival, Survival Mode Overhaul, MAIM Redux, NPCs Use Items, Herbal Remedies Remake, Fallout 2287 Gas Masks of the Wasteland, Campsite, and related patches. The normal Fallout 4 difficulty you select in-game still matters.
+
+The standard profile also has its own Arcadia Sands main-menu replacer and `ArcadiaSandsPRP` entry in the supplied list.
+
+### Arcadia Sands Survival
+
+Choose this if you want survival difficulty plus the additional survival-focused systems. In the supplied survival list, the survival package is enabled, including:
+
+- Doomsdayer – Surviving in Survival and its patch hub
+- Survival Mode Overhaul
+- MAIM Redux and its NPC item-use integration
+- NPCs Use Items
+- Herbal Remedies Remake and its Immersive Animation Framework patch
+- Fallout 2287 Gas Masks of the Wasteland
+- Campsite – Simple Wasteland Camping and its Settlement Menu Manager patch
+- House Rules and Console Enabled in Survival Difficulty
+
+The survival profile also enables Barrenwood, uses `Arcadia Sands LOD` rather than the standard profile’s `ArcadiaSandsPRP` entry, and includes some additional fixes and utility mods. The two lists are not identical, so treat them as distinct profiles rather than casually toggling individual mods between them.
+
+### How to switch profiles safely
+
+1. Open Mod Organizer 2 and select the profile you intend to play.
+2. Confirm the intended profile is selected before launching the game.
+3. Start a **new game** when beginning a playthrough on the other profile. Do not assume a save made with one profile is safe to continue with the other.
+4. Keep separate saves for each profile and label them clearly.
+5. If you are unsure which profile is active, stop at the main menu and check MO2 before loading a save.
+
+## Before Your First Launch
+
+- **Let MO2 launch the game.** Use the executable configured for this list rather than launching a different Fallout 4 installation directly.
+- **Check the selected profile.** The standard and Survival profiles have different active mods.
+- **Do not add or remove mods mid-playthrough casually.** This is a large list with settlement systems, quests, Previs/Precombines repairs, script-extender plugins, and many compatibility patches.
+- **Allow the first launch to finish loading.** A heavily modded setup can take longer than vanilla.
+- **Check for the expected menu and UI.** Both supplied lists include FallUI components, PipboyTabs, a HUD preset, and Mod Configuration Menu. The Survival list also includes Wheel Menu Remastered; the standard list does not show it enabled.
+- **If the game crashes immediately**, do not start removing random mods. Confirm the correct Fallout 4 runtime, F4SE, Address Library and other required files match the installed game version, then test methodically.
+
+## Starting a New Game
+
+Both lists include **MS Fast Start – Skip Sanctuary Prologue**. With the Arcadia Sands starting setup, after creating your character you will be prompted to choose your **SPECIAL** attributes and name your character. After completing that screen, you will be moved into the Vault 111 cryopod area to begin your adventure. Follow the on-screen prompts and pay attention to the location where the mod places you.
+
+### Vault 111 Starting Items and First-Launch Tips
+
+- **Check the Vault-Tec and wooden crates.** Crates that might seem unimportant in vanilla Fallout 4 can contain useful loot in this list. Search them as you move through Vault 111.
+- **Wait about five minutes before pressing the button to leave the vault.** Once you have your Pip-Boy, allow time for the list’s scripts and mods to finish loading before triggering the vault exit. This is the list author’s recommended precaution.
+- **Consider disabling Sim Settlements 2 Cinematic Mode.** Open MCM, select Sim Settlements 2, open its Gameplay section, scroll to Cinematic Mode, and disable it. The list author reports that this setting has caused issues in their experience.
+- **Do not save during combat.** Wait until the encounter has ended and you are somewhere safe before saving.
+
+
+The lists also include many quest and world additions. For a first run, it is sensible to explore naturally rather than trying to trigger every new quest at once.
+
+Suggested opening routine:
+
+1. Get familiar with movement, aiming, reloading, the Pip-Boy, and the new HUD.
+2. Loot carefully and compare weapon types before committing to a long expedition.
+3. Visit nearby settlements and learn their workshop menus before building extensively.
+4. Keep a few different weapon types available so you can adapt to enemies and ammunition supplies.
+5. Make a manual save before entering an unfamiliar quest area or starting a major quest, where the current game mode permits it.
+6. Read notes, holotapes, terminal entries, and dialogue. The list adds quests, locations, radio content, and NPCs, so new content may not announce itself as a large quest marker immediately.
+
+## Your First Hours in the Commonwealth
+
+### Explore at a manageable pace
+
+Arcadia Sands changes the landscape and adds many locations, interiors, encounters, and quests. Do not assume an unfamiliar building or marker is vanilla content. Some additions are small discoveries; others are substantial quest experiences.
+
+### Loot and carry with a plan
+
+The list includes FallUI, FIS item sorting, FallUI Map, FallUI HUD, FallUI Workbench, unread notes and holotapes, and other interface improvements. Use the Pip-Boy to review new items and notes rather than relying only on their names or appearance.
+
+- Keep useful healing items, ammunition, and repair/crafting materials.
+- Avoid carrying every weapon you find. Test a few favorites and keep ammunition needs in mind.
+- Check weapon ammunition carefully: the list includes **Munitions – Ammo Expansion Project**, weapon-specific additions, and **Commonwealth Weaponry Vendors**.
+- Some weapons use additional reload frameworks or custom animations. If a weapon behaves unexpectedly, check its mod requirements and compatibility before assuming it is broken.
+
+### Learn the crafting changes
+
+The list includes Cooking Overhaul and Commonwealth Cooking, plus many weapon and equipment additions. Explore the relevant crafting stations and recipes. Do not assume every new item is crafted at the same vanilla station or that every recipe is available from the start.
+
+## Combat, Weapons, and Equipment
+
+Combat is changed by several layers, including Combat AI Empowered, Adaptive Combat Tactics, Fallout 4 AI Overhaul, Dak’s Weapon Rebalance, and other gameplay changes. Enemies may aim, react, and engage differently from vanilla Fallout 4.
+
+### Practical combat advice
+
+- **Use cover.** Avoid standing in the open while exchanging fire.
+- **Scout before committing.** Listen for combat, look for patrols, and avoid rushing into unknown interiors.
+- **Choose weapons deliberately.** The list contains many firearms, energy weapons, shotguns, rifles, pistols, heavy weapons, and melee options. Pick weapons whose ammunition you can sustain.
+- **Watch reloads.** Tactical Reload, Bullet Counted Reload System (BCR), and weapon-specific patches are present. Reload behavior may differ between weapons.
+- **Use stealth when useful.** Detection and combat settings have been adjusted; do not assume the vanilla stealth rhythm will always apply.
+- **Do not underestimate familiar enemies.** Weapon balance and combat AI have been changed.
+
+The gear list includes **Munitions**, a large set of standalone weapons, armor collections, power-armor visuals, and vendor integration. It is not necessary to collect everything. Build a reliable kit and learn it well.
+
+## Exploration, Quests, and New Locations
+
+Both profiles include a substantial amount of additional content. The supplied lists include, among others:
+
+- **Tales from the Commonwealth**, **Settlers of the Commonwealth**, and **Atomic Radio**
+- **America Rising 2 – Legacy of the Enclave**
+- **Fourville**
+- **Gun For Hire**
+- **The Wild Key Chase**
+- **Ashland Station**
+- **Shady Motives**
+- **Vault 28 – The Absent Ghoul**
+- **Vault 117**, **Haunted Vault 165**, and **The Curse of Blair Residence**
+- **BREACH – A Horror Quest Mod**
+- **BOSTON MILITARY FACTORY**
+- **Bradberton Interiors**
+- **Misery Island** and **Boon Island**
+- **N.E.S.T Survival Bunkers**
+- **Barrenwood** (enabled in the supplied Survival list only)
+
+This is not a recommended quest order. It is an overview of the kinds of content included. Some quests may begin through dialogue, exploration, radio, or discovering a location. Let the world lead you into them.
+
+**Quest compatibility note:** The lists include several Previs/PRP-related patches for added quests and locations. Do not remove those patches just because a quest appears optional; they may also address world data. If you encounter flickering geometry, missing landscape pieces, or strange visibility, record the location and check the list’s patch requirements before changing anything.
+
+## Settlements and Sim Settlements 2
+
+Both profiles contain **Sim Settlements 2**, Chapter 2 and Chapter 3, Workshop Framework, Settlement Menu Manager, Place Everywhere, Workshop Plus, the Sim Settlements 2 Previsibines Expansion Pack, and a large collection of add-on packs and city plans.
+
+This is a major part of the list, not just a small workshop decoration pack.
+
+### A beginner-friendly approach
+
+1. Start with a settlement you can easily revisit.
+2. Learn the normal workshop controls first.
+3. Use the Sim Settlements 2 questline and in-game instructions to learn its systems rather than trying to understand every add-on at once.
+4. Keep an eye out for the **City Manager 2078 Holotape** and ASAM Sensors. The official Sim Settlements getting-started guide identifies these as important to starting its original setup; the SS2 questline and available starting steps can vary by version and progress.
+5. Build in stages. Let the core system become familiar before adding lots of plots, city plans, and optional features.
+6. If you use a city plan, read its instructions and allow its setup or construction process to run as intended.
+7. Avoid uninstalling Sim Settlements 2 or its framework components from an established save.
+
+The list contains many SS2 add-ons, including city-plan packs, support structures, settler leaders, settlement management tools, and other expansions. You do not need to master all of them immediately.
+
+### Sim Settlements 2 warnings for Arcadia Sands
+
+- **Do not include Zimonja in the pre-build selection.** The list author warns that pre-building Outpost Zimonja can cause a bug in the Minutemen questline.
+- **Watch out for the “Triangle of Death.”** This is the area around **Sanctuary, Abernathy Farm, and the Red Rocket truck stop**. The game can load the cells for all three settlements together. If all three have large, high-level Sim Settlements 2 cities, the combined load can cause severe performance problems or crashes when entering the area.
+
+To reduce the risk:
+
+1. **Make only one of the three settlements a major city.** For example, build up Sanctuary while keeping the other two modest.
+2. **Keep the other settlements small.** Red Rocket and Abernathy Farm can serve as a player home, small farm, or lower-level city plan.
+3. **Use performance-friendly city plans when available.** If you want to build all three, consider the city planner’s **Performance** or **Low-Poly** options.
+4. **Avoid fast-travelling directly into the area when possible.** Loading a settlement instantly can make the problem more likely according to the list author’s experience.
+5. **Do not pre-build all three settlements at once.** If you use the pre-build system, adjust its settings and pre-build only one or two of these locations.
+
+**Personal preference, not a requirement:** the list author prefers to skip auto-build, set each city plan manually when claiming a settlement, and never assign a city plan to Red Rocket. You can choose a different approach; this is a personal playstyle recommendation, not a mandatory rule.
+
+For additional help, visit the [official Sim Settlements 2 website](https://simsettlements2.com/).
+
+**Setup item to verify before release:** neither supplied MO2 export visibly lists **HUDFramework** as an enabled mod. The official Sim Settlements 2 requirements list HUDFramework and Workshop Framework, and the Survival profile’s Gas Masks of the Wasteland also lists HUDFramework as a requirement. Check the MO2 left pane and plugin list to confirm HUDFramework is installed and enabled; if it is genuinely missing, resolve that before starting a new playthrough. This is a finding from comparing the supplied lists with the current official requirements, not a claim that the installed game definitely lacks the file.
+
+References: [Official Sim Settlements 2 website](https://simsettlements2.com/) and [Sim Settlements 2 installation guide](https://wiki.simsettlements2.com/en/getting-started/installation).
+
+## Companions
+
+Both profiles include several companion additions and companion-related changes, including:
+
+- **Heather Casdin**
+- **Ellen the Cartographer**
+- **Axel – A Raider Companion**
+- **Dogmeat – A True Companion**
+- **Simple Everyone’s Best Friend**
+- **Curie’s (Robot) Facelift**
+- **Deeper Thoughts – Curie**
+- **Loving Cait**
+
+The list also includes Dogmeat Lags Behind and companion camera/animation improvements. New companions may have their own recruitment conditions, dialogue, or quest requirements. Speak to characters you meet and follow their dialogue; do not assume every companion is recruited through the vanilla method.
+
+**Companion tip:** If you want Dogmeat and another companion together, the list includes Simple Everyone’s Best Friend, but follow its actual in-game behavior and configuration. Do not assume every companion combination or quest interaction is guaranteed to work identically.
+
+## Pip-Boy, HUD, and Mod Menus
+
+The shared interface setup includes FallUI and related modules, PipboyTabs, FIS item sorting, a Sleek HUD preset, a high-quality Pip-Boy map, and Mod Configuration Menu (MCM).
+
+- **FallUI** changes the presentation of inventory and other menus.
+- **FIS** supplies item-sorting support.
+- **FallUI HUD – Sleek HUD** is the listed HUD preset.
+- **MCM** is where supported mods expose settings. Not every mod has an MCM page.
+- **PipboyTabs** changes Pip-Boy navigation.
+- The Survival profile also has **Wheel Menu Remastered** enabled in its supplied list.
+
+If a setting is not visible in MCM, that does not automatically mean the mod failed to install; some mods are configured through holotapes, terminals, workshop menus, in-game dialogue, or configuration files.
+
+## Visuals, Weather, and Performance
+
+Arcadia Sands has a strong visual identity: **Badlands 2** provides the desert-like landscape direction, **Desperados Overhaul** changes the Commonwealth’s look, and both lists include True Grass, True Storms, Lightweight Lighting, water and environmental changes, and multiple visual effects. The lighting section also includes ENB Helper, Fallout 4 Dynamic Lights and Shadows Overhaul, FO4 SUN, Sunlight Alignment Tweak, lens flare, and `enbseries_fallout`.
+
+### What to expect
+
+- The Commonwealth is intended to look much more arid and weathered than vanilla.
+- Weather and lighting can make the same area look very different at different times.
+- The list includes LOD-related entries, so distant terrain and objects are part of the intended presentation.
+- Frame Generation and Upscaling entries appear in both lists. Whether they are active and functioning depends on your hardware, runtime, and their configuration.
+
+### Performance tips
+
+- First test the list at its default settings before changing multiple graphics options.
+- If performance is poor, change one setting at a time and compare the same location and weather.
+- Dense scenes, settlements, lighting, and distant views can be more demanding than interiors.
+- Do not regenerate or replace the list’s LOD/Previs files as a casual troubleshooting step. This setup contains specific LOD and PRP entries, and the two profiles use different named LOD/PRP entries.
+- Avoid stacking additional weather, landscape, lighting, or settlement overhauls on top of the list without checking compatibility.
+
+## Stability and Save-Safety Tips
+
+This is a large, interconnected loadout. Both lists include F4SE, Address Library, High FPS Physics Fix, Workshop Framework, Sim Settlements 2, UFO4P, Community Fixes Merged, The Midnight Ride – Glitchfinder All-In-One, PRP, and other fixes or frameworks.
+
+### Good habits
+
+- Keep a rotating set of manual saves where the selected game mode allows it.
+- Back up saves before major quest transitions, settlement changes, or profile experiments.
+- Avoid cleaning, removing, or reordering large groups of mods in the middle of a playthrough without a specific reason.
+- Update carefully. If a previously working setup breaks after updates, check the recently updated or enabled mods first and test changes methodically.
+- If reporting a problem, include the profile name, the exact location or quest, what happened, and whether it reproduces on a new save.
+- Do not treat disabling half the list on an existing save as a reliable compatibility test. Scripted mods can leave data in saves, and world edits can interact with PRP/Previs.
+
+### If something goes wrong
+
+1. Stop and make a note of the last action before the issue appeared.
+2. Confirm the correct MO2 profile is selected.
+3. Check whether the issue is profile-specific.
+4. Review recent mod updates or newly enabled mods.
+5. Reproduce the problem in a controlled way before changing more than one thing.
+6. For crashes, check the available crash log and the list’s runtime requirements. For visual world errors, check the relevant PRP/Previs patching first.
+7. Do not continue a save after removing core frameworks or major quest/settlement mods unless you know that removal is safe.
+
+---
+
+Using the Survival profile? Continue to the [Survival Profile Guide]({{ '/sands/survival-guide/' | relative_url }}).
