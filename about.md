@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+---
+
 # About Arcadia
 
 **Welcome to Arcadia — a community built around modding, creativity, and unforgettable gaming experiences.**
